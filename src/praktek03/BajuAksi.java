@@ -1,14 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package praktek03;
 
-/**
- *
- * @author ikhsan
- */
+
 public class BajuAksi {
-    
+    public static void main(String[] args) {
+        Baju a = new Baju();
+        a.merk="cresida";
+        a.warna="biru";
+        a.ukuran="M";
+        a.harga=50000;
+        
+        a.cetakInfo();
+    }
 }
