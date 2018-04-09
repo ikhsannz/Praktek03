@@ -21,5 +21,15 @@ public class BajuAksi {
         System.out.println(a.getUkuran());
         System.out.print("Harganya \t:");
         System.out.println(a.getHarga());
+        
+        BajuKemeja b = new BajuKemeja();
+        b.setMerk("61");
+        b.setWarna("Merah");
+        b.setUkuran("L");
+        b.setHarga(100000);
+        b.setJenisBaju("Kotak - Kotak");
+        b.cetakInfo();
+        System.out.println("Jenis\t: "+b.getJenisBaju());
+        b.throttle();
     }
 }
