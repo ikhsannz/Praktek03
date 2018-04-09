@@ -27,9 +27,11 @@ public class BajuAksi {
         b.setWarna("Merah");
         b.setUkuran("L");
         b.setHarga(100000);
-        b.setJenisBaju("Kotak - Kotak");
+        b.setJenisBaju("Lengan Pendek");
+        b.setMotifBaju("Batik");
         b.cetakInfo();
         System.out.println("Jenis\t: "+b.getJenisBaju());
+        System.out.println("Motif\t: "+b.getMotifBaju());
         b.throttle();
         
         BajuKoko c = new BajuKoko();
@@ -38,10 +40,12 @@ public class BajuAksi {
         c.setUkuran("S");
         c.setHarga(120000);
         c.setJenisBaju("Gamis");
-        c.setModelBaju("Tanpa Kancing");
+        c.setModelBaju("Lengan Pendek Tanpa Kancing");
+        c.setMotifBaju("Kembang");
         c.cetakInfo();
         System.out.println("Jenis\t: "+c.getJenisBaju());
         System.out.println("Model\t: "+c.getModelBaju());
+        System.out.println("Motif\t: "+c.getMotifBaju()); 
         c.throttle();
         
         BajuSekolah d = new BajuSekolah();
@@ -51,9 +55,11 @@ public class BajuAksi {
         d.setHarga(45000);
         d.setJenisBaju("Pramuka");
         d.setModelBaju("Sekolah SMP");
+        d.setMotifBaju("Polos");
         d.cetakInfo();
         System.out.println("Jenis\t: "+d.getJenisBaju());
         System.out.println("Model\t: "+d.getModelBaju());
+        System.out.println("Motif\t: "+d.getMotifBaju());
         d.throttle();
     }
 }
