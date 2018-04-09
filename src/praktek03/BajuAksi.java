@@ -31,5 +31,17 @@ public class BajuAksi {
         b.cetakInfo();
         System.out.println("Jenis\t: "+b.getJenisBaju());
         b.throttle();
+        
+        BajuKoko c = new BajuKoko();
+        c.setMerk("Az-zahra");
+        c.setWarna("Putih");
+        c.setUkuran("S");
+        c.setHarga(120000);
+        c.setJenisBaju("Gamis");
+        c.setModelBaju("Tanpa Kancing");
+        c.cetakInfo();
+        System.out.println("Jenis\t: "+c.getJenisBaju());
+        System.out.println("Model\t: "+c.getModelBaju());
+        c.throttle();
     }
 }

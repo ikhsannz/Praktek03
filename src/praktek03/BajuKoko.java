@@ -1,14 +1,30 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package praktek03;
 
-/**
- *
- * @author ikhsan
- */
-public class BajuKoko {
+
+public class BajuKoko extends Baju {
+    private String jenisBaju;
+    private String modelBaju;
+    
+    void throttle(){
+        System.out.println("Ini baju KOKO!!!");
+}
+
+    public String getJenisBaju() {
+        return jenisBaju;
+    }
+
+    public void setJenisBaju(String jenisBaju) {
+        this.jenisBaju = jenisBaju;
+    }
+
+    public String getModelBaju() {
+        return modelBaju;
+    }
+
+    public void setModelBaju(String modelBaju) {
+        this.modelBaju = modelBaju;
+    }
+    
     
 }

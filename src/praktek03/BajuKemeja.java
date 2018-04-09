@@ -6,7 +6,7 @@ public class BajuKemeja extends Baju {
     private String jenisBaju;
     
     void throttle(){
-        System.out.println("Ini baju HEM");
+        System.out.println("Ini baju HEM!!!");
     }
 
     public String getJenisBaju() {
